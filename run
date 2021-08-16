@@ -23,7 +23,7 @@ WHITEC='\033[01;91m'
 CNIL='\033[0m'
 Version=`lsb_release -rs | cut -f1 -d"."`
 
-if [ "$Version" == "18" ];then
+if [ "$Version" == "20" ];then
 echo -e "${GREEN}
 ▇▇▇▇ @TEAM_TOMAXv ▇▇            ▇▇▇▇▇▇▇
 ▇           ▇           ▇            ▇                    ▇
